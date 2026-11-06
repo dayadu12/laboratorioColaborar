@@ -6,7 +6,7 @@ public class AC123 {
         System.out.print("Introduce el número de estudiantes:");
         int NA = sc.nextInt();
         double PA = 0.0d;
-        double TOT = 0.0d;
+        double TOT = 10d;
         if (NA==100 || NA>100){
             PA=65.0d;
             TOT=NA*PA;
